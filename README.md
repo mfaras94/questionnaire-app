@@ -2,6 +2,8 @@
 
 Quesinnore is a powerful and user-friendly web application designed to allow users to select answers using emojis and receive a summary. Built using modern technologies like React, the app aims to provide an intuitive interface and a seamless experience for users.
 
+You can access the live version of the app here: [Quesinnore App](https://insightloop.netlify.app/)
+
 ---
 
 ## Installation
@@ -35,6 +37,13 @@ Ensure you have the following installed on your machine:
    ```
    This will open the app in your browser at http://localhost:3000.
 
+5. **Run the Test:**
+   Test the application locally with the following command:
+    ```bash
+   npm test
+   ```
+   
+   
 ## Usage
 
    Once the app is running locally, you can begin using Quesinnore by navigating through the following features:
@@ -54,6 +63,7 @@ Ensure you have the following installed on your machine:
    - React Router
    - Redux Toolkit
    - Tailwindcss
+   - testing library/jest
    
 ## API Integration
    Real-time data with API
