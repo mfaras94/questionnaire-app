@@ -1,6 +1,6 @@
 # Quesinnore App
 
-  Quesinnore is a powerful and user-friendly web application designed to allow users to select answers using emojis and receive a summary. Built using modern technologies like React, the app aims to provide an intuitive interface and a seamless experience for users.
+  Steppoll is a powerful and user-friendly web application designed to allow users to select answers using emojis and receive a summary. Built using modern technologies like React, the app aims to provide an intuitive interface and a seamless experience for users.
 
   You can access the live version of the app here: [Steppoll Quesinnore App](https://steppoll.netlify.app/)
 
