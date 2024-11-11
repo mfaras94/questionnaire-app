@@ -1,17 +1,6 @@
 # Quesinnore App
 
-Quesinnore is a powerful and user-friendly web application designed to [insert core functionality, e.g., help users create and manage quizzes, track results, etc.]. Built using modern technologies like React, the app aims to provide an intuitive interface and a seamless experience for users.
-
----
-
-## Table of Contents
-
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Features](#features)
-4. [Technologies](#technologies)
-5. [Contributing](#contributing)
-6. [License](#license)
+Quesinnore is a powerful and user-friendly web application designed to allow users to select answers using emojis and receive a summary. Built using modern technologies like React, the app aims to provide an intuitive interface and a seamless experience for users.
 
 ---
 
@@ -23,8 +12,8 @@ To get started with Quesinnore, follow the instructions below:
 
 Ensure you have the following installed on your machine:
 
-- [Node.js](https://nodejs.org/) (v14 or later)
-- [npm](https://www.npmjs.com/) (v6 or later)
+- [Node.js](https://nodejs.org/) (v20.18.0)
+- [npm](https://www.npmjs.com/) (v10.8.2)
 
 ### Steps to Install
 
@@ -34,24 +23,38 @@ Ensure you have the following installed on your machine:
    git clone https://github.com/yourusername/quesinnore-app.git
    cd quesinnore-app
    ```
+2. **Install dependencies:**
+   Run the following command to install all the necessary dependencies:
+    ```bash
+   npm install
+   ```
+4. **Run the development server:**
+   Start the application locally with the following command:
+    ```bash
+   npm start
+   ```
+   This will open the app in your browser at http://localhost:3000.
 
-npm install
-npm install
-This will open the app in your browser at http://localhost:3000.
+## Usage
 
-Take Quiz:
+   Once the app is running locally, you can begin using Quesinnore by navigating through the following features:
+   - Select Answers with Emojis: The app allows users to answer questions by selecting emojis as responses.
+   - Receive Summary: After answering, the app provides a detailed summary of the responses.
 
-    [Provide instructions on how users can take a quiz, if applicable.]
+## Features
 
-Track Results:
+   - **Emoji-Based Answer Selection:** Allows users to answer questions using a variety of emojis.
+   - **Instant Summary:** Provides an immediate summary based on the selected emojis.
+   - **Responsive Design:** Optimized for all devices to ensure a smooth experience.
+   - **Real-Time Data with API Integration:** Seamlessly integrates with backend APIs for real-time data updates.
 
-    [Provide instructions on how users can view their results.]
+## Front-end
 
-    Frontend:
-
-    React.js
-    React Router
-    Redux (if applicable)
-    Tailwind CSS
-
-    Reacl time data with api
+   - React.js
+   - React Router
+   - Redux Toolkit
+   - Tailwindcss
+   
+## API Integration
+   Real-time data with API
+  
