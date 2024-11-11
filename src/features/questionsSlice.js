@@ -65,4 +65,5 @@ const questionsSlice = createSlice({
 });
 
 export const { updateAns } = questionsSlice.actions;
+
 export default questionsSlice.reducer;
