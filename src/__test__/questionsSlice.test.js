@@ -1,5 +1,5 @@
 
-import questionsReducer,{updateAns} from "../features/questionsSlice"
+import questionsReducer,{updateAns} from "../features/QuestionsSlice"
 
 describe("questionsSlice", () => {
     const initialState = {

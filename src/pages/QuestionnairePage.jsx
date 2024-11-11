@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { updateAns } from "../features/questionsSlice";
+import { updateAns } from "../features/QuestionsSlice";
 
 import React, { useEffect, useState } from "react";
 import Carousel from "../componants/CustomCarousel/Carousel";
@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Loading from "../componants/Loading";
 import { capitalize } from "../utility/capitalize";
 import { useNavigate } from "react-router-dom";
-import { fetchQuestions, submitData } from "../features/questionsThunk";
+import { fetchQuestions, submitData } from "../features/QuestionsThunk";
 
 function QuestionnairePage() {
   const dispatch = useDispatch();

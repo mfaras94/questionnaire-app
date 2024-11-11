@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { toast } from "react-toastify";
-import { fetchQuestions } from "./questionsThunk";
+import { fetchQuestions } from "./QuestionsThunk";
 
 // questionsSlice
 const questionsSlice = createSlice({
